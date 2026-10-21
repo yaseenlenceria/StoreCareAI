@@ -19,7 +19,7 @@ COPY package.json package-lock.json* ./
 RUN npm ci --omit=dev && npm cache clean --force
 COPY prisma ./prisma
 RUN npx prisma generate
-COPY build ./build
+COPY --from=build /app/build ./build
 COPY public ./public
 COPY app ./app
 COPY shopify.app.toml ./
