@@ -1,0 +1,35 @@
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  Using shopify.app.toml for default values:                                  │
+│                                                                              │
+│    • Org:             Beehivedesign                                          │
+│    • App:             StoreCareAI                                            │
+│    • Dev store:       storecare-ai.myshopify.com                             │
+│    • Update URLs:     Not yet configured                                     │
+│                                                                              │
+│   You can pass `--reset` to your command to reset your app configuration.    │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Running pre-dev command: "npx prisma generate"Preparing dev preview on storecare-ai.myshopify.comProxy server started on port 63884 GraphiQL server started on port 3457✅ Ready, watching for changes in your app │ Access scopes auto-granted: read_content, read_products, read_publications, write_content, write_products└ Using URL: https://listed-including-fathers-sessions.trycloudflare.comEnvironment variables loaded from .env
+Error: 
+EPERM: operation not permitted, rename 'C:\Users\Seenu\Desktop\StoreCare AI\storecare-ai\node_modules\.prisma\client\query_engine-windows.dll.node.tmp30568' -> 'C:\Users\Seenu\Desktop\StoreCare AI\storecare-ai\node_modules\.prisma\client\query_engine-windows.dll.node'
+
+
+── external error ──────────────────────────────────────────────────────────────
+
+Error coming from `npx prisma generate`
+
+Command failed with exit code 1: npx prisma generate
+Environment variables loaded from .env
+Error:
+EPERM: operation not permitted, rename 'C:\Users\Seenu\Desktop\StoreCare AI\stor
+ecare-ai\node_modules\.prisma\client\query_engine-windows.dll.node.tmp30568' ->
+'C:\Users\Seenu\Desktop\StoreCare
+AI\storecare-ai\node_modules\.prisma\client\query_engine-windows.dll.node'
+
+
+Prisma schema loaded from prisma\schema.prisma
+
+────────────────────────────────────────────────────────────────────────────────
+
