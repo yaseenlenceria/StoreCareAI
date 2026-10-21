@@ -1,6 +1,6 @@
 # StoreCare AI configuration
 name = "storecare-ai"
-client_id = "c07257ffab5a3ae603b4ed703b5fce02"
+client_id = "6d1d5be17d0802757972209e346eae35"
 application_url = "https://example.com"
 embedded = true
 
